@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicWardrobe - Your Fashion Destination</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1600px;
+            padding: 30px;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5rem;
+            color: #333;
+        }
+
+        .navbar li {
+            margin-right: 15px;
+            list-style: decimal;
+            display: inline;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar li a:hover {
+            color: #ff3366;
+        }
+
+        .section1 {
+            background: #f5f5f5;
+            padding: 50px 0;
+        }
+
+        .section2 {
+            background: #f5f5f5;
+            padding: 30px 0;
+        }
+
+        .topleft {
+            background: blanchedalmond; 
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .topleft h1 {
+            font-size: 3.5rem;
+            color: #333;
+        }
+
+        .topleft p {
+            color: #666;
+        }
+
+        .buttons .btn {
+            background: #ff3366;
+            color: #fff;
+            padding: 10px 20px;
+            border: orchid;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .buttons .btn:hover {
+            background: #e6005c;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">ChicWardrobe</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Shop</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Explore Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="clothingimg" src="clothing.jpg" alt="" style="width: 450px; height: 300px;">
+                        </div>
+                        <h1 class="my-1 text-center">Discover the Latest Fashion Trends</h1>
+                        <p class=" text-center">Explore a wide range of stylish clothing that suits your taste and
+                            enhances your style. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="deal text-center">Limited-time offers! Hurry, shop now to grab the best deals.</p>
+                        <div class="buttons">
+                            <button class="btn">Shop Now</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="fashionimg" src="fashion.jpg" alt="" style="width: 400px; height: 300px;">
+                    </div>
+                </div>
+            </section>
+    <section class="section2">
+        <h1 class="text-center my-2">Product Comparison</h1>
+        <p class="my-2">Explore our range of high-quality clothing with unbeatable prices. Choose the perfect plan that suits your style and budget.</p>
+        <div class="product-cards flex justify-center">
+           
+            <div class="product-card">
+                <img class="product-image" src="classic tee.jpg" alt="Classic Tee" style="width: 200px; height: 200px;">
+                <h2>Classic Tee</h2>
+                <p class="highlighted">₹599</p>
+                <p>Soft cotton fabric</p>
+                <p>Various color options</p>
+                <p><button class="btn">Add to Cart</button></p>
+            </div>
+            
+            <div class="product-card">
+                <img class="product-image" src="denimjeans.jpg" alt="Denim Jeans" style="width: 200px; height: 200px;">
+                <h2>Denim Jeans</h2>
+                <p class="highlighted">₹899</p>
+                <p>Durable denim material</p>
+                <p>Skinny fit design</p>
+                <p><button class="btn">Add to Cart</button></p>
+            </div>
+            
+            <div class="product-card">
+                <img class="product-image" src="elegantdress.jpg" alt="Elegant Dress" style="width: 200px; height: 200px;">
+                <h2>Elegant Dress</h2>
+                <p class="highlighted">₹1,999</p>
+                <p>Stylish and comfortable</p>
+                <p>Perfect for special occasions</p>
+                <p><button class="btn">Add to Cart</button></p>
+            </div>
+        </div>
+    </section>
+    
+            <hr>
+          
+        </main>
+        <footer>
+            Copyright &copy; ChicWardrobe.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
